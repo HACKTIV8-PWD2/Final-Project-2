@@ -161,3 +161,20 @@ nav .navbar-nav a{
   background-color: #ffffff;
   border-radius: 60px;
 }
+
+/* ======= contact ============================================================== */
+.contact .banner{
+  background-color: #F2F6FF;
+  border-radius: 60px;
+  padding: 75px;
+}
+.contact .banner h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.contact .banner input{
+  border: none;
+  padding: 20px;
+  border-radius: 18px;
+}
