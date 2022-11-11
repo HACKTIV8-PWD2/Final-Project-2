@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "nunito", sans-serif;
+  color: #234CAD;
+}
+section{
+  margin-top: 150px;
 }
 
 /* =================================================================== */
@@ -19,21 +23,27 @@
 .btn-tombol{
   border: 2px solid #234CAD;
   border-radius: 25px;
-  color: #234CAD;
   background-color: #ffff;
-  padding: 10px 44px;
+  padding: 10px 44px !important;
   font-size: 18px;
   font-weight: 700;
 }
 
 .btn-tombol-1{
   border-radius: 25px;
-  color: #234CAD;
   background-color: #F2F6FF;
   padding: 8px 33px;
   font-size: 18px;
   font-weight: 700;
   border: none;
+}
+.btn-hero{
+  border: 2px solid #234CAD;
+  border-radius: 35px;
+  background-color: transparent;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: 700;
 }
 
 /* ======= navbar ============================================================== */
@@ -41,7 +51,6 @@ nav .navbar-nav a{
   margin: 25px 20px 20px;
   font-weight: 600;
   font-size: 18px;
-  color: #234CAD;
 }
 
 
@@ -58,22 +67,16 @@ nav .navbar-nav a{
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
-  color: #234CAD;
 }
 
 .jumbotron .content p{
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #234CAD;
 }
 
-.jumbotron .content .btn-hero{
-  border: 2px solid #234CAD;
-  border-radius: 35px;
-  color: #234CAD;
-  background-color: transparent;
-  padding: 15px 40px;
-  font-size: 22px;
-  font-weight: 700;
+
+/* ======= element ============================================================== */
+.element-1 h4{
+  font-weight: 600;
 }
