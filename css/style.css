@@ -1,9 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "nunito", sans-serif;
+  color: #234CAD;
+}
+section{
+  margin-top: 150px;
 }
 
 /* =================================================================== */
@@ -16,3 +20,177 @@
 /* =================================================================== */
 /* ======= component ============================================================== */
 /* =================================================================== */
+.btn-outline-auth{
+  border: 2px solid #234CAD;
+  border-radius: 25px;
+  background-color: #ffff;
+  padding: 10px 44px !important;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn-auth{
+  border-radius: 25px;
+  background-color: #F2F6FF;
+  padding: 8px 33px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+.btn-outline-hero{
+  border: 2px solid #234CAD;
+  border-radius: 35px;
+  background-color: transparent;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.btn-hero{
+  border: none;
+  border-radius: 35px;
+  background-color: #ffff;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* ======= navbar ============================================================== */
+nav .navbar-nav a{
+  margin: 25px 20px 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+
+/* ======= jumbotron ============================================================== */
+.jumbotron .hero{
+  background-color: #F2F6FF;
+  border-radius: 60px;
+}
+.jumbotron .content{
+  padding: 100px;
+}
+
+.jumbotron .content h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.jumbotron .content p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
+/* ======= element ============================================================== */
+.element-1 h4{
+  font-weight: 600;
+}
+
+/* ======= products ============================================================== */
+.products .banner{
+  background-color: #F2F6FF;
+  border-radius: 60px;
+}
+.products .content{
+  padding: 0 100px;
+}
+.products .content h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+/* ======= features ============================================================== */
+.features .content h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.features .banner{
+  margin-top: 100px;
+  background-color: #F2F6FF;
+  border-radius: 60px;
+}
+
+/* ======= about ============================================================== */
+.about .banner{
+  background-color: #F2F6FF;
+  border-radius: 60px;
+}
+.about .content{
+  padding: 0 100px;
+}
+.about .content h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+/* ======= pricing ============================================================== */
+.pricing .content{
+  margin-bottom: 75px;
+}
+.pricing .content h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.pricing .span{
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+}
+.pricing h2{
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 48px;
+}
+.pricing .card{
+  margin: 20px;
+}
+.pricing .no-outline{
+  border: none;
+  background-color: #F2F6FF;
+  border-radius: 60px;
+}
+.pricing .outline{
+  border: 2px solid #234CAD;
+  background-color: #ffffff;
+  border-radius: 60px;
+}
+
+/* ======= contact ============================================================== */
+.contact .banner{
+  background-color: #F2F6FF;
+  border-radius: 60px;
+  padding: 75px;
+}
+.contact .banner h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.contact .banner input{
+  border: none;
+  padding: 20px;
+  border-radius: 18px;
+}
+
+/* ======= footer ============================================================== */
+footer{
+  padding: 150px 50px 75px;
+}
+footer .content{
+  padding: 0 75px;
+}
+footer h4{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 49px;
+}
+footer ul{
+  list-style-type:none;
+}
