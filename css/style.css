@@ -80,3 +80,16 @@ nav .navbar-nav a{
 .element-1 h4{
   font-weight: 600;
 }
+/* ======= products ============================================================== */
+.products .banner{
+  background-color: #F2F6FF;
+  border-radius: 60px;
+}
+.products .content{
+  padding: 0 100px;
+}
+.products .content h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
