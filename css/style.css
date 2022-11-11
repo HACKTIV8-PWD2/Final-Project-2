@@ -20,7 +20,7 @@ section{
 /* =================================================================== */
 /* ======= component ============================================================== */
 /* =================================================================== */
-.btn-tombol{
+.btn-outline-auth{
   border: 2px solid #234CAD;
   border-radius: 25px;
   background-color: #ffff;
@@ -29,7 +29,7 @@ section{
   font-weight: 700;
 }
 
-.btn-tombol-1{
+.btn-auth{
   border-radius: 25px;
   background-color: #F2F6FF;
   padding: 8px 33px;
@@ -37,10 +37,18 @@ section{
   font-weight: 700;
   border: none;
 }
-.btn-hero{
+.btn-outline-hero{
   border: 2px solid #234CAD;
   border-radius: 35px;
   background-color: transparent;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.btn-hero{
+  border: none;
+  border-radius: 35px;
+  background-color: #ffff;
   padding: 15px 40px;
   font-size: 22px;
   font-weight: 700;
@@ -119,4 +127,37 @@ nav .navbar-nav a{
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
+}
+
+/* ======= pricing ============================================================== */
+.pricing .content{
+  margin-bottom: 75px;
+}
+.pricing .content h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.pricing .span{
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+}
+.pricing h2{
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 48px;
+}
+.pricing .card{
+  margin: 20px;
+}
+.pricing .no-outline{
+  border: none;
+  background-color: #F2F6FF;
+  border-radius: 60px;
+}
+.pricing .outline{
+  border: 2px solid #234CAD;
+  background-color: #ffffff;
+  border-radius: 60px;
 }
