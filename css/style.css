@@ -6,6 +6,7 @@
   font-family: "nunito", sans-serif;
   color: #234cad;
 }
+
 section {
   margin-top: 150px;
 }
@@ -30,6 +31,7 @@ section {
   font-weight: 700;
   border: none;
 }
+
 .btn-outline-hero {
   border: 2px solid #234cad;
   border-radius: 35px;
@@ -38,6 +40,7 @@ section {
   font-size: 22px;
   font-weight: 700;
 }
+
 .btn-hero {
   border: none;
   border-radius: 35px;
@@ -59,6 +62,7 @@ nav .navbar-nav a {
   background-color: #f2f6ff;
   border-radius: 60px;
 }
+
 .jumbotron .content {
   padding: 0 100px 100px;
 }
@@ -81,6 +85,18 @@ nav .navbar-nav a {
   }
 }
 
+@media (max-width: 460px) {
+  .jumbotron .content h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 400px) {
+  .jumbotron .content h1 {
+    font-size: 34px;
+  }
+}
+
 /* ======= element ============================================================== */
 .element-1 h4 {
   font-weight: 600;
@@ -91,9 +107,11 @@ nav .navbar-nav a {
   background-color: #f2f6ff;
   border-radius: 60px;
 }
+
 .products .content {
   padding: 0 100px;
 }
+
 .products .content h1 {
   font-weight: 700;
   font-size: 48px;
@@ -112,9 +130,11 @@ nav .navbar-nav a {
   background-color: #f2f6ff;
   border-radius: 60px;
 }
+
 .about .content {
   padding: 0 100px;
 }
+
 .about .content h1 {
   font-weight: 700;
   font-size: 48px;
@@ -125,29 +145,35 @@ nav .navbar-nav a {
 .pricing .content {
   margin-bottom: 75px;
 }
+
 .pricing .content h1 {
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
 }
+
 .pricing .span {
   font-weight: 400;
   font-size: 25px;
   line-height: 40px;
 }
+
 .pricing h2 {
   font-weight: 700;
   font-size: 56px;
   line-height: 48px;
 }
+
 .pricing .card {
   margin: 20px;
 }
+
 .pricing .no-outline {
   border: none;
   background-color: #f2f6ff;
   border-radius: 60px;
 }
+
 .pricing .outline {
   border: 2px solid #234cad;
   background-color: #ffffff;
@@ -160,11 +186,13 @@ nav .navbar-nav a {
   border-radius: 60px;
   padding: 75px;
 }
+
 .contact .banner h1 {
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
 }
+
 .contact .banner input {
   border: none;
   padding: 20px;
@@ -175,6 +203,7 @@ nav .navbar-nav a {
 footer {
   padding: 150px 50px 75px;
 }
+
 footer .content {
   padding: 0 75px;
 }
@@ -184,11 +213,13 @@ footer h4 {
   font-size: 30px;
   line-height: 49px;
 }
+
 footer li {
   list-style-type: none;
   margin-left: -30px;
   padding-bottom: 10px;
 }
+
 footer a {
   text-decoration: none;
   color: #234cad;
